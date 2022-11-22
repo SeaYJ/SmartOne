@@ -1,0 +1,82 @@
+/*小屏幕下(手机类)的样式*/
+@media only screen and (max-width: 601px) {
+  footer ul.footer-social-icons {
+    text-align: center;
+  }
+}
+/*中等屏幕下(平板类)的样式*/
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  footer ul.footer-social-icons {
+    text-align: left;
+  }
+}
+/*大屏幕下(桌面类)的样式*/
+@media only screen and (min-width: 993px) {
+  footer ul.footer-social-icons {
+    text-align: left;
+  }
+}
+.module-title-box {
+  text-align: center;
+  margin-top: 136px;
+  margin-bottom: -24px;
+}
+.module-title-box .m-title {
+  color: #d7ecff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+}
+.module-title-box .m-title a {
+  border-bottom: 0;
+}
+.module-title-box .m-title ::before {
+  position: relative;
+  padding: 5px;
+  left: -10px;
+  content: " ";
+  border-left: 1px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-top: 1px solid #d7ecff;
+  transition: left 0.3s ease;
+}
+.module-title-box .m-title ::after {
+  position: relative;
+  content: " ";
+  padding: 5px;
+  right: -10px;
+  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-top: 1px solid #d7ecff;
+  transition: right 0.3s ease;
+}
+.module-stitle-box {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.module-stitle-box .m-title {
+  color: #d7ecff;
+  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+}
+.module-stitle-box .m-title a {
+  border-bottom: 0;
+}
+.module-stitle-box .m-title ::before {
+  position: relative;
+  padding: 5px;
+  left: -10px;
+  content: " ";
+  border-left: 1px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-top: 1px solid #d7ecff;
+  transition: left 0.3s ease;
+}
+.module-stitle-box .m-title ::after {
+  position: relative;
+  content: " ";
+  padding: 5px;
+  right: -10px;
+  border-right: 1px solid #d7ecff;
+  border-bottom: 1px solid #d7ecff;
+  border-top: 1px solid #d7ecff;
+  transition: right 0.3s ease;
+}
