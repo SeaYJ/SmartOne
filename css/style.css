@@ -822,7 +822,7 @@ figure.highlight table tbody tr td pre .deletion {
 }
 .module-stitle-box .m-title {
   color: #d7ecff;
-  text-shadow: 0 0 1px #fff, 0 0 5px #fff, 0 0 15px #228dff;
+  text-shadow: 0 0 1px #fff, 0 0 3px #fff, 0 0 15px #228dff;
 }
 .module-stitle-box .m-title a {
   border-bottom: 0;

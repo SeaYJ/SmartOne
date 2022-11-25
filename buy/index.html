@@ -236,6 +236,7 @@
         justify-content: center;
         flex-wrap: wrap;
     }
+
     .buy-container .buy-card {
         background-color: #1b697f;
         height: 500px;
@@ -246,7 +247,14 @@
         align-items: center;
         justify-content: start;
         flex-direction: column;
+        transition: all .3s ease-in-out;
     }
+
+    .buy-container .buy-card:hover {
+        transform: scale(1.04);
+        transition: all .4s ease-in-out;
+    }
+
     @media only screen and (max-width: 601px) {
         .buy-container .buy-card {
             width: calc(100% - 2rem);
@@ -254,6 +262,7 @@
             margin-top: 70px;
         }
     }
+
     @media only screen and (min-width: 600px) and (max-width: 992px) {
         .buy-container .buy-card {
             width: calc(50% - 2rem);
@@ -261,6 +270,7 @@
             margin-top: 80px;
         }
     }
+
     @media only screen and (min-width: 993px) {
         .buy-container .buy-card {
             width: calc(33% - 2rem);
@@ -268,23 +278,35 @@
             margin-top: 90px;
         }
     }
+
     .buy-card .buy-logo {
-        width: 128px;
+        width: 100%;
         height: 128px;
         overflow: hidden;
-        border-radius: 50%;
+        /* border-radius: 50%; */
         margin: -78px auto 0 auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
+
+    .buy-card .buy-logo img {
+        height: 100%;
+    }
+
     .buy-card .buy-name {
         height: 40px;
         margin-top: 50px;
         color: #f7f7f7;
     }
+
     .buy-card .buy-desc {
         margin-top: 10px;
         height: 180px;
         color: #becedc;
     }
+
     .buy-card .buy-price {
         width: 100%;
         height: 50px;
@@ -292,6 +314,7 @@
         font-size: 24px;
         text-align: center;
     }
+
     .buy-card .buy-button {
         width: 80%;
         height: 58px;
@@ -302,6 +325,7 @@
         background-color: #00a88e;
         transition: all .3s ease-in-out;
     }
+
     .buy-card .buy-button a {
         width: 100%;
         height: 100%;
@@ -310,6 +334,7 @@
         font-size: 22px;
         border-bottom: 1px dotted transparent;
     }
+
     .buy-card .buy-button:hover {
         background-color: #00453b;
     }
@@ -318,18 +343,18 @@
     
     <div class="buy-card">
         <div class="buy-logo">
-            <img src="/img/test/1.jpg" alt="">
+            <img src="/img/product/7.png" alt="">
         </div>
         <div class="buy-name">
-            <h3>智能无人机1</h3>
+            <h3>智能测绘小车</h3>
         </div>
         <div class="buy-desc">
             <p>
-                傲来雾，花果香，定海一棒万妖朝。东海外，水帘中，齐天比高仙折腰。
+                &emsp;&emsp;智能测绘小车采用轮履复合式底盘，内置北斗卫星导航系统，可搭载地面激光扫描仪和无人机实现多功能，具有自动化程度高、地形适应力强的优势，可实现自动规划路线，具有自动行驶和人工远程操控的双行进模式，综合检测头可实现自动避障。
             </p>
         </div>
         <div class="buy-price">
-            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">1000.00</span>
+            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">47100.00</span>
         </div>
         <div class="buy-button">
             <a onclick="buyClick()">立即购买</a>
@@ -338,18 +363,18 @@
     
     <div class="buy-card">
         <div class="buy-logo">
-            <img src="/img/test/2.jpg" alt="">
+            <img src="/img/product/13.png" alt="">
         </div>
         <div class="buy-name">
-            <h3>智能无人机2</h3>
+            <h3>无人机</h3>
         </div>
         <div class="buy-desc">
             <p>
-                傲来雾，花果香，定海一棒万妖朝。 东海外，水帘中，齐天比高仙折腰。
+                &emsp;&emsp;无人机倾斜摄影不受复杂地形干扰， 短时间内连续移动拍摄获得多角度、大面积影像;一体化中继通信可实现复杂环境通信和测量数据传输。
             </p>
         </div>
         <div class="buy-price">
-            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">2000.00</span>
+            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">24300.00</span>
         </div>
         <div class="buy-button">
             <a onclick="buyClick()">立即购买</a>
@@ -358,18 +383,18 @@
     
     <div class="buy-card">
         <div class="buy-logo">
-            <img src="/img/test/3.jpg" alt="">
+            <img src="/img/product/14.png" alt="">
         </div>
         <div class="buy-name">
-            <h3>智能无人机3</h3>
+            <h3>数据处理平台</h3>
         </div>
         <div class="buy-desc">
             <p>
-                傲来雾，花果香，定海一棒万妖朝。 东海外，水帘中，齐天比高仙折腰。
+                &emsp;&emsp;多功能数据处理平台不仅可以通过三维点云数据处理系统满足监测过程的可视化需求，且内含核心算法，大大提高了数据处理的效率，为平台内部的预警作业提供了强有力的保障。
             </p>
         </div>
         <div class="buy-price">
-            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">3000.00</span>
+            <strong style="font-size: 30px;">￥</strong><span style="color: #ff7f86;">6800.00</span>
         </div>
         <div class="buy-button">
             <a onclick="buyClick()">立即购买</a>
@@ -379,12 +404,9 @@
 </div>
 <script>
     function buyClick() {
-        if (confirm("确定购买吗？"))
-        {
+        if (confirm("确定购买吗？")) {
             alert("购买成功！");
-        }
-        else
-        {
+        } else {
             alert("已取消购买！");
         }
     }
@@ -405,15 +427,11 @@
                 <h2>格物致知</h2>
                 
                 <span>
-                    格物致知，行稳致远
+                    格物致知团队秉持着 “致知在格物，物格而后知至”的初心。
                 </span><br>
                 
                 <span>
-                    携手并进，共赢共创
-                </span><br>
-                
-                <span>
-                    肩负重任，展望未来
+                    格物致知团队勇于创新，将推动我国测绘科技发展做出贡献视为目标并奉献出自己的力量！
                 </span><br>
                 
             </div>
